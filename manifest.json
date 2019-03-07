@@ -1,0 +1,13 @@
+  {
+    "name": "WhatsTeams",
+    "version": "1.0",
+    "description": "Wolf in sheeps clothing",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": ["https://web.whatsapp.com/*"], 
+        "js": ["whatsteams.js"],
+        "css" : ["whatsteams.css"]
+      }
+    ]
+  }
